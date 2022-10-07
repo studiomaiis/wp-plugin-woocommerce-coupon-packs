@@ -4,7 +4,7 @@
  * Plugin Name: WooCommerce Réduction par packs
  * Description: Applique automatiquement des réductions dans le panier dès que des packs sont constitués
  * Plugin URI: https://github.com/studiomaiis/wp-plugin-woocommerce-coupon-packs
- * Version: 0.1
+ * Version: 0.2
  * Requires at least: 5.6
  * Tested up to: 6.0
  * Requires PHP: 7.3
