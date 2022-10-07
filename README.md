@@ -1,8 +1,8 @@
 # Plugin WooCommerce pour constituer des packs de bouteilles
 
-Ce plugin permet d'appliquer des réductions automatiquement au panier dès que des packs de 3, 6 ou 12 unités sont constitués. A été développé sur mesure pour la [brasserie Walpine](https://www.walpine.fr) et leurs spécificités liées au [logiciel de gestion de brasserie artisanale SuperG](https://www.superg.fr).
+Ce plugin permet d'appliquer des réductions automatiquement au panier dès que des packs de 3, 6 ou 12 unités sont constitués. A été développé sur mesure pour la [brasserie Walpine](https://www.walpine.fr) et leurs spécificités liées au logiciel de gestion de brasserie artisanale [SuperG](https://www.superg.fr).
 
-Les packs peuvent être constitués de plusieurs bières différentes, chacune ayant son SKU/UGS dédié pour facilité la gestion des commandes par la suite lors de la synchronisation avec *SuperG*.
+Les packs peuvent être constitués de plusieurs bières différentes, chacune ayant son SKU/UGS dédié pour facilité la gestion des commandes par la suite lors de la synchronisation avec [SuperG](https://www.superg.fr).
 
 ![Exemple de réduction appliqué à un panier de 6 bouteilles, 4 blondes, 1 IPA et 1 blanche](https://depot.studiomaiis.net/screenshots/walpine_panier.png "Exemple de réduction appliqué à un panier de 6 bouteilles, 4 blondes, 1 IPA et 1 blanche")
 
@@ -27,17 +27,17 @@ Une fois le module installé, les mises à jour se font depuis le back-office de
 
 ## Configuration
 
-1. Allez dans *Marketing > Codes promo* et créez un nouveau code promo. Peut importe son nom mais *REMISE_PACKS* semble approprié pour une meilleure identification dans les commandes.
+1. Allez dans *Marketing > Codes promo* et créez un nouveau code promo. Peut importe son nom mais *REMISE_PACKS* semble approprié pour une meilleure identification dans les commandes,
 
-2. Sélectionnez *Packs* dans l'onglet *Général > Type de remise*.
+2. Sélectionnez *Packs* dans l'onglet *Général > Type de remise*,
 
-3. Activez *Code promo pour la configuration des packs ?*
+3. Activez *Code promo pour la configuration des packs ?*,
 
-4. Saisissez vos tarifs dans la grille
+4. Saisissez vos tarifs dans la grille.
 
 ![Page de configuration d'un code promo de type Packs](https://depot.studiomaiis.net/screenshots/woo_packs_config.png "Page de configuration d'un code promo de type Packs")
 
-**Important** : il ne peut y avoir qu'un seul code promo de type *Packs*.
+**Important** : il ne peut y avoir qu'un seul code promo de type *Packs* ; ne pas utiliser un SKU/UGS sur plusieurs lignes.
 
 ## Personnalisations
 
