@@ -1,8 +1,8 @@
 # Plugin WooCommerce pour constituer des packs de bouteilles
 
-Ce plugin permet d'appliquer des réductions automatiquement au panier dès que des packs de 3, 6 ou 12 unités sont constitués. A été développé spécifiquement pour la [brasserie Walpine](https://www.walpine.fr) et leurs spécificités liées au [logiciel de gestion de brasserie artisanale SuperG](https://www.superg.fr).
+Ce plugin permet d'appliquer des réductions automatiquement au panier dès que des packs de 3, 6 ou 12 unités sont constitués. A été développé sur mesure pour la [brasserie Walpine](https://www.walpine.fr) et leurs spécificités liées au [logiciel de gestion de brasserie artisanale SuperG](https://www.superg.fr).
 
-Les packs peuvent être constitués de plusieurs bières différentes, chacune ayant son SKU/UGS dédié pour facilité la gestion ensuite dans *SuperG*.
+Les packs peuvent être constitués de plusieurs bières différentes, chacune ayant son SKU/UGS dédié pour facilité la gestion des commandes par la suite lors de la synchronisation avec *SuperG*.
 
 ![Exemple de réduction appliqué à un panier de 6 bouteilles, 4 blondes, 1 IPA et 1 blanche](https://depot.studiomaiis.net/screenshots/walpine_panier.png "Exemple de réduction appliqué à un panier de 6 bouteilles, 4 blondes, 1 IPA et 1 blanche")
 
@@ -11,7 +11,7 @@ Les packs peuvent être constitués de plusieurs bières différentes, chacune a
 * PHP : 7.4 et plus
 * WordPress : 5.6.9 et plus
 * WooCommerce : 5.8 et plus
-* Plugin ACF Pro
+* Plugin ACF Pro : 5 et plus, requis car la grille tarifaire dépend du type de champ "Repéteur"
 
 Il se peut que le plugin fonctionne sur des versions antérieures de PHP, WordPress ou WooCommerce, mais il n'a pas été testé dans d'autres conditions que celles mentionnées ci-dessus.
 
