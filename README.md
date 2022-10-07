@@ -41,7 +41,7 @@ Une fois le module installé, les mises à jour se font depuis le back-office de
 
 ## Personnalisations
 
-Ce plugin est assez spécifique à la [brasserie du Champsaur Walpine.fr](https://www.walpine.fr) mais grâce à ACF Pro, et moyennant quelques [développements WordPress sur mesure](https://www.studiomaiis.net), il peut être rapidement adapté à d'autres besoins.
+Ce plugin est assez spécifique à la [brasserie du Champsaur Walpine.fr](https://www.walpine.fr) mais grâce à ACF Pro, et moyennant quelques développements WordPress sur mesure, il peut être rapidement adapté à d'autres besoins.
 
-N'hésitez pas à [me contacter créer votre plugin sur mesure !](https://www.studiomaiis.net).
+N'hésitez pas à [me contacter](https://www.studiomaiis.net) pour vous créer un plugin sur mesure !.
 

@@ -110,7 +110,7 @@ function woocommerce_coupon_packs() {
 			 * Init the plugin after plugins_loaded so environment variables are set.
 			 */
 			public function init() {
-				require_once dirname( __FILE__ ) . '/includes/class-mercanet-updater.php';
+				require_once dirname( __FILE__ ) . '/includes/class-packs-updater.php';
 				require_once dirname( __FILE__ ) . '/includes/acf-packs.php';
 				
 				$updater = new Packs\Updater( __FILE__, WC_COUPON_PACKS_SERVER_URL );
